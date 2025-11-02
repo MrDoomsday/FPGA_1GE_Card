@@ -63,3 +63,30 @@ This is a Gigabit Ethernet transceiver with GPIO interface. It provides network 
 **Power Supplies** - библиотека посадочных мест для источников питания (как для цельных, так и для отдельных микросхем реализующих шим и т.д.)  
 **Resistors SMD** - библиотека посадочных мест для smd резисторов  
 **Resistors THD** - библиотека посадочных мест для выводных конденсаторов  
+
+
+## Статус разработки
+
+| Файл                            | Разработчик                                 | Статус | Кому/что необходимо доделать? |
+|---------------------------------|---------------------------------------------|:------:|-------------------------------|
+| Capacitors.SchLib               | Nikilo13, V-Digitronics                     |   ❌   | V-Digitronics: подключить посадочное место к компоненту |
+| Connectors.SchLib               | Nikilo13, V-Digitronics, saziliya2003-rgb   |   ❌   | V-Digitronics: перерисовать разъем RJ-45; MrDoomsday: подключить посадочные места для внешних разъемов |
+| Crystals & Oscillators.SchLib   | saziliya2003-rgb                            |   ❌   | saziliya2003-rgb: подключить посадочное место к компоненту |
+| Inductors & Transformers.SchLib | Nikilo13                                    |   ❌   | Nikilo13: подключить посадочное место к компоненту |
+| Logic.SchLib                    | Nikilo13                                    |   ✅   | - |
+| Power Supplies.SchLib           | Nikilo13, saziliya2003-rgb                  |   ❌   | saziliya2003-rgb: подключить посадочное место к компоненту |
+| Resistors.SchLib                | Nikilo13                                    |   ✅   | - |
+| Capacitors SMD.PcbLib           | Nikilo13, V-Digitronics                     |   ❌   | V-Digitronics: сделать посадочное место под электролит  |
+| Capacitors THD.PcbLib           | -                                           |   ✅   | - |
+| Connectors.PcbLib               | MrDoomsday                                  |   ❌   | MrDoomsday: сделать посадочные места для внешних разъемов  |
+| Crystals and Oscillators.PcbLib | saziliya2003-rgb                            |   ❌   | saziliya2003-rgb: сделать посадочное место под генератор |
+| Inductor and Transformers.PcbLib| Nikilo13                                    |   ❌   | Nikilo13: сделать посадочное место под катушку |
+| Logic.PcbLib                    | Nikilo13                                    |   ✅   | - |
+| Power Supplies.PcbLib           | saziliya2003-rgb                            |   ❌   | Nikilo13: сделать посадочное под микр. питания |
+| Resistors SMD.PcbLib            | Nikilo13                                    |   ✅   | - |
+| Resistors THD.PcbLib            | -                                           |   ✅   | - |
+|                                 |                                             |        |   |
+| dev_board_top.SchDoc            | -                                           |   ❌   | - |
+| ethernet.SchDoc                 | V-Digitronics                               |   ❌   | - |
+| power.SchDoc                    | saziliya2003-rgb                            |   ❌   | - |
+| board.PcbDoc                    | Nikilo13, V-Digitronics, saziliya2003-rgb   |   ❌   | - |
