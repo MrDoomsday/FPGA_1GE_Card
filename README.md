@@ -72,7 +72,7 @@ This is a Gigabit Ethernet transceiver with GPIO interface. It provides network 
 | Capacitors.SchLib               | Nikilo13, V-Digitronics                     |   ❌   | V-Digitronics: подключить посадочное место к компоненту |
 | Connectors.SchLib               | Nikilo13, V-Digitronics, saziliya2003-rgb   |   ❌   | V-Digitronics: перерисовать разъем RJ-45; MrDoomsday: подключить посадочные места для внешних разъемов |
 | Crystals & Oscillators.SchLib   | saziliya2003-rgb                            |   ❌   | saziliya2003-rgb: подключить посадочное место к компоненту |
-| Inductors & Transformers.SchLib | Nikilo13                                    |   ❌   | Nikilo13: подключить посадочное место к компоненту |
+| Inductors & Transformers.SchLib | Nikilo13                                    |   ✅   | Nikilo13: подключить посадочное место к компоненту |
 | Logic.SchLib                    | Nikilo13                                    |   ✅   | - |
 | Power Supplies.SchLib           | Nikilo13, saziliya2003-rgb                  |   ❌   | saziliya2003-rgb: подключить посадочное место к компоненту |
 | Resistors.SchLib                | Nikilo13                                    |   ✅   | - |
@@ -80,9 +80,9 @@ This is a Gigabit Ethernet transceiver with GPIO interface. It provides network 
 | Capacitors THD.PcbLib           | -                                           |   ✅   | - |
 | Connectors.PcbLib               | MrDoomsday                                  |   ❌   | MrDoomsday: сделать посадочные места для внешних разъемов  |
 | Crystals and Oscillators.PcbLib | saziliya2003-rgb                            |   ❌   | saziliya2003-rgb: сделать посадочное место под генератор |
-| Inductor and Transformers.PcbLib| Nikilo13                                    |   ❌   | Nikilo13: сделать посадочное место под катушку |
+| Inductor and Transformers.PcbLib| Nikilo13                                    |   ✅   | Nikilo13: сделать посадочное место под катушку |
 | Logic.PcbLib                    | Nikilo13                                    |   ✅   | - |
-| Power Supplies.PcbLib           | saziliya2003-rgb                            |   ❌   | Nikilo13: сделать посадочное под микр. питания |
+| Power Supplies.PcbLib           | Nikilo13                                    |   ✅   | Nikilo13: сделать посадочное под микр. питания |
 | Resistors SMD.PcbLib            | Nikilo13                                    |   ✅   | - |
 | Resistors THD.PcbLib            | -                                           |   ✅   | - |
 |                                 |                                             |        |   |
