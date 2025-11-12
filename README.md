@@ -69,7 +69,7 @@ This is a Gigabit Ethernet transceiver with GPIO interface. It provides network 
 
 | Файл                            | Разработчик                                 | Статус | Кому/что необходимо доделать? |
 |---------------------------------|---------------------------------------------|:------:|-------------------------------|
-| Capacitors.SchLib               | Nikilo13, V-Digitronics                     |   ❌   | V-Digitronics: подключить посадочное место к компоненту |
+| Capacitors.SchLib               | Nikilo13, V-Digitronics                     |   ✅   | V-Digitronics: подключить посадочное место к компоненту |
 | Connectors.SchLib               | Nikilo13, V-Digitronics, saziliya2003-rgb   |   ❌   | V-Digitronics: перерисовать разъем RJ-45; MrDoomsday: подключить посадочные места для внешних разъемов |
 | Crystals & Oscillators.SchLib   | saziliya2003-rgb                            |   ✅   | saziliya2003-rgb: подключить посадочное место к компоненту |
 | Inductors & Transformers.SchLib | Nikilo13                                    |   ✅   | Nikilo13: подключить посадочное место к компоненту |
