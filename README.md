@@ -88,5 +88,5 @@ This is a Gigabit Ethernet transceiver with GPIO interface. It provides network 
 |                                 |                                             |        |   |
 | dev_board_top.SchDoc            | -                                           |   ❌   | - |
 | ethernet.SchDoc                 | V-Digitronics                               |   ❌   | - |
-| power.SchDoc                    | saziliya2003-rgb                            |   ❌   | - |
+| power.SchDoc                    | Nikilo13                                    |   ✅   | Nikilo13: разработать схему питания
 | board.PcbDoc                    | Nikilo13, V-Digitronics, saziliya2003-rgb   |   ❌   | - |
