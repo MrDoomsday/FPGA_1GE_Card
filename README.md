@@ -70,7 +70,7 @@ This is a Gigabit Ethernet transceiver with GPIO interface. It provides network 
 | Файл                            | Разработчик                                 | Статус | Кому/что необходимо доделать? |
 |---------------------------------|---------------------------------------------|:------:|-------------------------------|
 | Capacitors.SchLib               | Nikilo13, V-Digitronics                     |   ✅   | V-Digitronics: подключить посадочное место к компоненту |
-| Connectors.SchLib               | Nikilo13, V-Digitronics, saziliya2003-rgb   |   ❌   | V-Digitronics: перерисовать разъем RJ-45; MrDoomsday: подключить посадочные места для внешних разъемов |
+| Connectors.SchLib               | Nikilo13, V-Digitronics, saziliya2003-rgb   |   ✅   | V-Digitronics: перерисовать разъем RJ-45; MrDoomsday: подключить посадочные места для внешних разъемов |
 | Crystals & Oscillators.SchLib   | saziliya2003-rgb                            |   ✅   | saziliya2003-rgb: подключить посадочное место к компоненту |
 | Inductors & Transformers.SchLib | Nikilo13                                    |   ✅   | Nikilo13: подключить посадочное место к компоненту |
 | Logic.SchLib                    | Nikilo13                                    |   ✅   | - |
@@ -78,7 +78,7 @@ This is a Gigabit Ethernet transceiver with GPIO interface. It provides network 
 | Resistors.SchLib                | Nikilo13                                    |   ✅   | - |
 | Capacitors SMD.PcbLib           | Nikilo13, V-Digitronics                     |   ✅   | V-Digitronics: сделать посадочное место под электролит  |
 | Capacitors THD.PcbLib           | -                                           |   ✅   | - |
-| Connectors.PcbLib               | MrDoomsday                                  |   ❌   | MrDoomsday: сделать посадочные места для внешних разъемов  |
+| Connectors.PcbLib               | Nikilo13, saziliya2003-rgb, MrDoomsday      |   ✅   | Сделать посадочные места для внешних разъемов  |
 | Crystals and Oscillators.PcbLib | saziliya2003-rgb                            |   ✅   | saziliya2003-rgb: сделать посадочное место под генератор |
 | Inductor and Transformers.PcbLib| Nikilo13                                    |   ✅   | Nikilo13: сделать посадочное место под катушку |
 | Logic.PcbLib                    | Nikilo13                                    |   ✅   | - |
@@ -86,7 +86,7 @@ This is a Gigabit Ethernet transceiver with GPIO interface. It provides network 
 | Resistors SMD.PcbLib            | Nikilo13                                    |   ✅   | - |
 | Resistors THD.PcbLib            | -                                           |   ✅   | - |
 |                                 |                                             |        |   |
-| dev_board_top.SchDoc            | -                                           |   ❌   | - |
-| ethernet.SchDoc                 | V-Digitronics                               |   ❌   | - |
-| power.SchDoc                    | saziliya2003-rgb                            |   ❌   | - |
-| board.PcbDoc                    | Nikilo13, V-Digitronics, saziliya2003-rgb   |   ❌   | - |
+| dev_board_top.SchDoc            | MrDoomsday                                  |   ✅   | - |
+| ethernet.SchDoc                 | MrDoomsday                                  |   ✅   | - |
+| power.SchDoc                    | Nikilo13                                    |   ✅   | Nikilo13: разработать схему питания
+| board.PcbDoc                    | Nikilo13, saziliya2003-rgb                  |   ❌   | - |
